@@ -18,33 +18,40 @@ Implemente duas funções para vencer as trevas:
 **1. Avaliação Sombria dos Fragmentos**
 
 Calcule o total de fragmentos conquistados e retorne uma mensagem conforme o desempenho:
-
+```
 total < 150: "As sombras aguardam. Continue ceifando conhecimento no mundo oculto! 🗡️"
 150 ≤ total < 250: "Você sente o poder das trevas crescendo. O portal do Level 42 brilha à distância! 💀⚡"
 total ≥ 250: "Você dominou as artes proibidas – a eternidade digital é sua! 👁️‍🗨️🌑"
-
+```
 **2. Triunfos Acima das Sombras**
 
 Retorne uma lista dos domínios onde o Ceifador conquistou uma quantia de fragmentos acima da média.
 
 Se não houver nenhum domínio acima da média:
 
-"Nenhuma conquista se destacou sobre as trevas eternas…"
+**"Nenhuma conquista se destacou sobre as trevas eternas…"**
 
-##🔥 Funcionalidades
+## 🔥 Funcionalidades
 
 ✅ Cálculo dinâmico de fragmentos totais
+
 ✅ Análise estatística com identificação de valores acima da média
+
 ✅ Interface imersiva com vídeo de fundo e tema musical
+
 ✅ Validação de dados em tempo real
 ✅ Exemplos pré-definidos de domínios das trevas
+
 ✅ Design responsivo para diferentes dispositivos
+
 ✅ Animações e efeitos visuais temáticos
 
 ## 🛠️ Tecnologias Utilizadas
 
 HTML5 - Estrutura semântica
+
 CSS3 - Estilização avançada com animações
+
 JavaScript (ES6+) - Lógica de negócio e manipulação do DOM
 
 ## 🎮 Como Usar
