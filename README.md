@@ -114,30 +114,41 @@ Este desafio demonstra conceitos aplicáveis em diversos cenários profissionais
 ### 📊 Dashboards de Performance
 
 Identificação de métricas acima da média
+
 Cálculo de KPIs e indicadores
+
 Análise comparativa de dados
 
 ### 🎓 Sistemas Educacionais
 
 Avaliação de desempenho de alunos
+
 Identificação de notas acima da média da turma
+
 Geração de relatórios automáticos
 
 ### 💰 Análise Financeira
 
 Identificação de vendas acima da média
+
 Análise de performance de produtos
+
 Relatórios de desempenho comercial
 
 ### 📈 Business Intelligence
 
 Filtragem de dados relevantes
+
 Cálculos estatísticos em tempo real
+
 Visualização de dados destacados
+
 ### 🎯 Sistemas de Gamificação
 
 Ranking de usuários
+
 Sistema de conquistas e badges
+
 Análise de progresso do usuário
 
 ##📁 Estrutura do Projeto
@@ -154,10 +165,15 @@ projeto/
 ## 🎨 Recursos Visuais
 
 Vídeo de fundo atmosférico
+
 Tema musical imersivo
+
 Animações CSS personalizadas
+
 Efeitos de glow nos botões
+
 Scrollbar customizada
+
 Design dark mode temático
 
 ## 📝 Licença
