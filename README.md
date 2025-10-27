@@ -40,6 +40,7 @@ Se não houver nenhum domínio acima da média:
 ✅ Interface imersiva com vídeo de fundo e tema musical
 
 ✅ Validação de dados em tempo real
+
 ✅ Exemplos pré-definidos de domínios das trevas
 
 ✅ Design responsivo para diferentes dispositivos
