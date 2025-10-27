@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jornada do Ceifador do Código</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Vídeo de Fundo -->
+    <video class="background-video" autoplay loop muted playsinline>
+      <source src="assets/background.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Áudio de Tema -->
+    <audio id="theme-audio" loop>
+      <source src="assets/theme.mp3" type="audio/mpeg" />
+    </audio>
+
+    <!-- Controles de Áudio -->
+    <div class="audio-controls">
+      <button id="play-audio" class="audio-btn" title="Tocar música">🎵</button>
+      <button id="pause-audio" class="audio-btn" title="Pausar música">⏸️</button>
+    </div>
+
+    <!-- Container Principal -->
+    <div class="container">
+      <h1 class="title">⚡ Jornada do Ceifador do Código 💀</h1>
+      <p class="subtitle">Avalie seus fragmentos de alma e descubra seus triunfos</p>
+
+      <!-- Área de Entrada -->
+      <div class="input-section">
+        <div class="input-group">
+          <label for="dominio-input">Domínio:</label>
+          <input type="text" id="dominio-input" placeholder="Ex: Rituais de Compilação Arcana" autocomplete="off" />
+        </div>
+
+        <div class="input-group">
+          <label for="fragmentos-input">Fragmentos:</label>
+          <input type="number" id="fragmentos-input" placeholder="Ex: 85" min="0" autocomplete="off" />
+        </div>
+
+        <!-- Exemplos de Domínios -->
+        <div class="examples-section">
+          <button type="button" class="examples-toggle" id="toggle-examples">💀 Ver Domínios das Trevas 💀</button>
+          <div class="examples-list hidden" id="examples-list">
+            <div class="example-item" onclick="fillExample('Hacking Ético', 70)">🗡️ Hacking Ético - 70 fragmentos</div>
+            <div class="example-item" onclick="fillExample('Criptografia Obscura', 45)">
+              🔐 Criptografia Obscura - 45 fragmentos
+            </div>
+            <div class="example-item" onclick="fillExample('Algoritmos Necromânticos', 35)">
+              💀 Algoritmos Necromânticos - 35 fragmentos
+            </div>
+            <div class="example-item" onclick="fillExample('Redes Fantasmagóricas', 65)">
+              👻 Redes Fantasmagóricas - 65 fragmentos
+            </div>
+            <div class="example-item" onclick="fillExample('Engenharia Reversa das Sombras', 80)">
+              🌑 Engenharia Reversa das Sombras - 80 fragmentos
+            </div>
+            <div class="example-item" onclick="fillExample('Inteligência Artificial Sombria', 90)">
+              🤖 Inteligência Artificial Sombria - 90 fragmentos
+            </div>
+            <div class="example-item" onclick="fillExample('Exploração de Vulnerabilidades Etéreas', 75)">
+              ⚡ Exploração de Vulnerabilidades Etéreas - 75 fragmentos
+            </div>
+            <div class="example-item" onclick="fillExample('Análise Forense Digital Espectral', 60)">
+              🔍 Análise Forense Digital Espectral - 60 fragmentos
+            </div>
+            <div class="example-item" onclick="fillExample('Programação de Sistemas Amaldiçoados', 55)">
+              💻 Programação de Sistemas Amaldiçoados - 55 fragmentos
+            </div>
+            <div class="example-item" onclick="fillExample('Rituais de Compilação Arcana', 250)">
+              🔮 Rituais de Compilação Arcana - 250 fragmentos ⭐
+            </div>
+          </div>
+        </div>
+
+        <button id="add-domain" class="add-btn">➕ Adicionar Domínio</button>
+
+        <!-- Lista de Domínios Adicionados -->
+        <div id="domains-list" class="domains-list"></div>
+      </div>
+
+      <!-- Área de Botões -->
+      <div class="buttons-area">
+        <button class="glow-on-hover" id="calcular-btn" type="button">🗡️ CALCULAR 🗡️</button>
+        <button class="glow-on-hover" id="retornar-btn" type="button">🔄 RETORNAR 🔄</button>
+      </div>
+
+      <!-- Área de Resultado -->
+      <div id="resultado-section" class="resultado-section hidden">
+        <h2 class="resultado-title">📜 Resultados da Ceifa 📜</h2>
+        <div id="resultado-content" class="resultado-content"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
